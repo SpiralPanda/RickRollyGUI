@@ -57,11 +57,11 @@ public class Main extends Application {
 
         RickRoll = new Button("Click Here");
 
-        imageMain = new Image("RickRolly.png");
-        imageLeft = new Image("RickLeft.jpg");
-        imageRight = new Image("RickRight.png");
-        imageDown = new Image("RickRollDown.png");
-        imageUp = new Image("RickRollUp.jpg");
+        imageMain = new Image("RickRolly.png" , 1000, 900,false, true);
+        imageLeft = new Image("RickLeft.jpg", 1000, 900, false, true);
+        imageRight = new Image("RickRight.png", 1000 , 900, false ,true);
+        imageDown = new Image("RickRollDown.png", 1000, 900, false, true);
+        imageUp = new Image("RickRollUp.jpg", 1000, 900, false, true);
         imageVew = new ImageView();
         ToggleButton toggleButton1 = new ToggleButton("Left");
         ToggleButton toggleButton2 = new ToggleButton("Right");
